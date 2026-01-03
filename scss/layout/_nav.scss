@@ -1,0 +1,17 @@
+.barra-navegacion {
+  @include flex-center;
+  gap: 50px;
+  height: 50px;
+  background-color: $color-principal;
+
+  a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-acento;
+    }
+  }
+}

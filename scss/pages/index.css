@@ -1,0 +1,34 @@
+.contenido-principal {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .contenido-principal {
+    grid-template-columns: 1fr;
+  }
+}
+
+.imagen {
+  position: relative;
+  border: 1px solid #0b3a4a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.8);
+}
+.imagen p {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}/*# sourceMappingURL=index.css.map */
